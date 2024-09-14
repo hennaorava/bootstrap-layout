@@ -1,0 +1,25 @@
+header {
+    background-color: #f5f5f5;
+    height: 100px;
+}
+
+nav {
+    background-color: #f5f5f5;
+}
+
+html, body {
+    height: 100%; /* Varmistaa, että html ja body elementit käyttävät täyden korkeuden */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Flexbox asettelu sarakkeissa */
+    height: 100%; /* Koko sivu täysi korkeus */
+}
+
+.footer {
+    margin-top: auto; /* Automaattinen marginaali ylös, joka työntää footeria alaspäin */
+    padding-top: 3rem; /* Footerin yläpuolelle tyhjää tilaa */
+    background-color: #333; /* Footerin taustaväri (valinnainen) */
+    color: #f5f5f5;
+}
